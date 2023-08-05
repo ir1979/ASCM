@@ -1,0 +1,38 @@
+# Some useful information from the question here:
+# https://stackoverflow.com/questions/50690526/how-to-publish-binary-python-wheels-for-linux-on-a-local-machine
+
+# Make sure that the file .pypirc exists in the HOME folder
+# Moreover, install requirements:
+# pip install auditwheel twine
+# apt install patchelf
+
+# You have to build the wheel for multiple platforms and versions of python
+# so it is recommended to use a ready-made docker image as follows:
+
+# cd the folder where you want to build
+# docker run -i -t -v "`pwd`"":/io quay.io/pypa/manylinux_2_28_x86_64 /bin/bash
+# within the docker image, run the following command:
+# cd io
+# python3.6 -m pip wheel . -w wheelhouse/
+# python3.7 -m pip wheel . -w wheelhouse/
+# python3.8 -m pip wheel . -w wheelhouse/
+# ...
+
+# then run auditwheel to repair the wheels:
+# for whl in wheelhouse/*.whl; do     auditwheel repair "$whl" -w /io/wheelhouse2/; done
+
+# now your files are ready to be uploaded to pypi
+# in the host system, run the following command to upload the wheels:
+# twine upload wheelhouse2/*.whl
+
+
+################ old ###############3
+# from https://pythonhosted.org/an_example_pypi_project/setuptools.html
+
+# python -m build
+# python setup.py register
+# # set HOME=C:\Users\Owner\
+# # cd C:\eclipse\workspace\HG_AN_EXAMPLE_PYPI_PROJECT
+# python setup.py bdist_egg upload --identity="ir1979" --sign
+# # python setup.py bdist_wininst --target-version=3.8 register upload --identity="Reza Mortazavi" --sign
+# python setup.py sdist upload --identity="ir1979" --sign

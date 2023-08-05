@@ -1,0 +1,4 @@
+include pyproject.toml
+
+recursive-include . *.cpp
+recursive-include . *.h

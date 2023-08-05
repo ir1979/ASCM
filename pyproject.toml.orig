@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "accelerated_sequence_clustering"
+version = "1.0.0"
+description = "Fast sequence clustering module"
+readme = "README.md"
+authors = [{ name = "Reza Mortazavi", email = "ir1979@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["sequence", "data clustering", "grouping"]
+dependencies = [
+    "numpy >= 1.23.4",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/ir1979/ASCM"
+
+[project.scripts]
+realpython = "test_sequence_clustering"
