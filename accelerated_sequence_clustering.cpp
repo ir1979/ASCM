@@ -1960,7 +1960,7 @@ void basic_sequence_clustering_2d(int nrec,
         )
 {
     int n = nrec;
-    std::cout << n << " " << ndims << std::endl;
+    //std::cout << n << " " << ndims << std::endl;
 
     std::vector<std::vector<double> > left(k+1, std::vector<double>(n+1, -1));
     std::vector<std::vector<std::vector<double> > > cntr(k+1, std::vector<std::vector<double> >(n+1, std::vector<double>(ndims, 0)));

@@ -31,6 +31,9 @@
         "typeinfo": "cpp",
         "utility": "cpp",
         "chrono": "cpp",
-        "array": "c"
+        "array": "c",
+        "ratio": "cpp",
+        "sstream": "cpp",
+        "tuple": "cpp"
     }
 }
