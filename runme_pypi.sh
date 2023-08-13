@@ -1,10 +1,13 @@
 # Some useful information from the question here:
 # https://stackoverflow.com/questions/50690526/how-to-publish-binary-python-wheels-for-linux-on-a-local-machine
+# https://blog.jetbrains.com/pycharm/2017/05/how-to-publish-your-package-on-pypi/
+
+# Pause dropbox during the process
 
 # Make sure that the file .pypirc exists in the HOME folder
 # Moreover, install requirements:
-# pip install auditwheel twine
-# apt install patchelf
+#   pip install auditwheel twine
+#   apt install patchelf
 
 # You have to build the wheel for multiple platforms and versions of python
 # so it is recommended to use a ready-made docker image as follows:

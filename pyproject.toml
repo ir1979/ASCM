@@ -1,7 +1,7 @@
 [build-system]
 build-backend = "setuptools.build_meta"
 requires = [
-    "setuptools>=59.0.0", 
+    "setuptools>=58.0.0", 
     "numpy",
     "wheel"
     ]
@@ -19,9 +19,9 @@ classifiers = [
 ]
 keywords = ["sequence", "data clustering", "grouping"]
 dependencies = [
-    "numpy >= 1.23.4",
+    "numpy >= 1.24.4",
 ]
-requires-python = ">=3.6"
+requires-python = ">=3.8"
 
 [project.urls]
 Homepage = "https://github.com/ir1979/ASCM"

@@ -26,7 +26,7 @@ int main()
     double real_SSE, approximated_SSE;
 
     auto start1 = high_resolution_clock::now();
-    // no approximation
+    // no approximation basic=0, 
     accelerated_sequence_clustering_approximated3_2d(n, d, b, k, 1, 0, sizes, real_SSE);   // theta = 0 means no approaximation
     auto stop1 = high_resolution_clock::now();
     auto duration1 = duration_cast<microseconds>(stop1 - start1);
