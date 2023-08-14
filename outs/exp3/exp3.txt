@@ -1,0 +1,67 @@
+Total saved operations: 495352164
+Total saved operations: 852327036
+Total saved operations: 903392330
+Total saved operations: 919469150
+Total saved operations: 926532915
+Total saved operations: 929600219
+Total saved operations: 931268535
+Total saved operations: 1408595581
+Total saved operations: -1897687209
+Total saved operations: -1644971773
+Total saved operations: -1559874187
+Total saved operations: -1526574903
+Total saved operations: -1511695207
+Total saved operations: -1503975817
+Total saved operations: -579739446
+Total saved operations: 1971043966
+Total saved operations: -1656755531
+Total saved operations: -1359425298
+Total saved operations: -1241465512
+Total saved operations: -1185941943
+Total saved operations: -1155974140
+Total saved operations: -37824521
+Total saved operations: 914029018
+Total saved operations: -1874628482
+Total saved operations: -1055232494
+Total saved operations: -723910855
+Total saved operations: -563881013
+Total saved operations: -480098340
+Total saved operations: 704099333
+Total saved operations: 1219844294
+Total saved operations: 1240999999
+Total saved operations: 1243875760
+Total saved operations: 1247284250
+Total saved operations: 1248748392
+Total saved operations: 1249222475
+Total saved operations: 2062952347
+Total saved operations: -681756460
+Total saved operations: -568906163
+Total saved operations: -560072275
+Total saved operations: -553625810
+Total saved operations: -548886747
+Total saved operations: -547453844
+Total saved operations: 1163470385
+Total saved operations: 493879451
+Total saved operations: 1035200038
+Total saved operations: 1269789224
+Total saved operations: 1330178049
+Total saved operations: 1375454091
+Total saved operations: 1396568192
+Total saved operations: -2026682229
+Total saved operations: 1043209526
+Total saved operations: -928937394
+Total saved operations: 200777372
+Total saved operations: 620368825
+Total saved operations: 867346654
+Total saved operations: 963449063
+ASC method outputs for 01_....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for r01_....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Finished.

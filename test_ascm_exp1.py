@@ -15,11 +15,13 @@ def __main__(argv):
     # input_path=f'C:/Users/Elham/Dropbox/PhD Thesis/Anomaly Detection in Time series/projects/DataSets/Physionet/'
     # folder='abdominal-and-direct-fetal-ecg-database-1.0.0'
     # folder='brno-university-of-technology-ecg-signal-database-with-annotations-of-p-wave-but-pdb-1.0.0'
-    input_path='C:/Users/Elham/Dropbox/PhD Thesis/Anomaly Detection in Time series/projects/12 - Accelerated Sequential Clustering Module (ASCM)/'
+    # input_path='C:/Users/Elham/Dropbox/PhD Thesis/Anomaly Detection in Time series/projects/12 - Accelerated Sequential Clustering Module (ASCM)/'
+    input_path=os.getcwd()
     folder='datasets3'
     files_path = glob.glob(input_path+folder+'/*.csv')  
     files_path.sort()
-
+    theta=1.05
+    MAX=10
     k_min = 3
     k_max = 20
     k_set=[3,5,10,20]
@@ -56,7 +58,7 @@ def __main__(argv):
         for k in k_set: #range(k_min, k_max+1):
             print(f'cluster={k}')
             start_a = time.time()
-            sizes, SSE_a = ascm.accelerated_sequence_clustering_approximated3_2d(a_2d, k, 10, 1.05)
+            sizes, SSE_a = ascm.accelerated_sequence_clustering_approximated3_2d(a_2d, k, MAX, theta)
             end_a = time.time()
             total_time_a= end_a-start_a
             
