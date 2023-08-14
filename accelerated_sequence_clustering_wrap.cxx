@@ -2985,23 +2985,24 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_char swig_types[1]
 #define SWIGTYPE_p_difference_type swig_types[2]
 #define SWIGTYPE_p_double swig_types[3]
-#define SWIGTYPE_p_p_PyObject swig_types[4]
-#define SWIGTYPE_p_size_type swig_types[5]
-#define SWIGTYPE_p_std__allocatorT_double_t swig_types[6]
-#define SWIGTYPE_p_std__allocatorT_int_t swig_types[7]
-#define SWIGTYPE_p_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t swig_types[8]
-#define SWIGTYPE_p_std__allocatorT_std__vectorT_int_std__allocatorT_int_t_t_t swig_types[9]
-#define SWIGTYPE_p_std__allocatorT_unsigned_int_t swig_types[10]
-#define SWIGTYPE_p_std__invalid_argument swig_types[11]
-#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[12]
-#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[13]
-#define SWIGTYPE_p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t swig_types[14]
-#define SWIGTYPE_p_std__vectorT_std__vectorT_int_std__allocatorT_int_t_t_std__allocatorT_std__vectorT_int_std__allocatorT_int_t_t_t_t swig_types[15]
-#define SWIGTYPE_p_std__vectorT_unsigned_int_std__allocatorT_unsigned_int_t_t swig_types[16]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[17]
-#define SWIGTYPE_p_value_type swig_types[18]
-static swig_type_info *swig_types[20];
-static swig_module_info swig_module = {swig_types, 19, 0, 0, 0, 0};
+#define SWIGTYPE_p_long swig_types[4]
+#define SWIGTYPE_p_p_PyObject swig_types[5]
+#define SWIGTYPE_p_size_type swig_types[6]
+#define SWIGTYPE_p_std__allocatorT_double_t swig_types[7]
+#define SWIGTYPE_p_std__allocatorT_int_t swig_types[8]
+#define SWIGTYPE_p_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t swig_types[9]
+#define SWIGTYPE_p_std__allocatorT_std__vectorT_int_std__allocatorT_int_t_t_t swig_types[10]
+#define SWIGTYPE_p_std__allocatorT_unsigned_int_t swig_types[11]
+#define SWIGTYPE_p_std__invalid_argument swig_types[12]
+#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[13]
+#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[14]
+#define SWIGTYPE_p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t swig_types[15]
+#define SWIGTYPE_p_std__vectorT_std__vectorT_int_std__allocatorT_int_t_t_std__allocatorT_std__vectorT_int_std__allocatorT_int_t_t_t_t swig_types[16]
+#define SWIGTYPE_p_std__vectorT_unsigned_int_std__allocatorT_unsigned_int_t_t swig_types[17]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[18]
+#define SWIGTYPE_p_value_type swig_types[19]
+static swig_type_info *swig_types[21];
+static swig_module_info swig_module = {swig_types, 20, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -6028,6 +6029,20 @@ SWIGINTERN void std_vector_Sl_std_vector_Sl_int_Sg__Sg__insert__SWIG_1(std::vect
   }
 
 
+
+
+SWIGINTERN int
+SWIG_AsVal_bool (PyObject *obj, bool *val)
+{
+  int r;
+  if (!PyBool_Check(obj))
+    return SWIG_ERROR;
+  r = PyObject_IsTrue(obj);
+  if (r == -1)
+    return SWIG_ERROR;
+  if (val) *val = r ? true : false;
+  return SWIG_OK;
+}
 
 #ifdef __cplusplus
 extern "C" {
@@ -17464,28 +17479,31 @@ SWIGINTERN PyObject *_wrap_basic_sequence_clustering_2d__SWIG_0(PyObject *self, 
   int arg2 ;
   double *arg3 = (double *) 0 ;
   int arg4 ;
-  std::vector< int,std::allocator< int > > *arg5 = 0 ;
-  double *arg6 = 0 ;
-  std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > *arg7 = 0 ;
-  std::vector< std::vector< double,std::allocator< double > >,std::allocator< std::vector< double,std::allocator< double > > > > *arg8 = 0 ;
+  bool arg5 ;
+  std::vector< int,std::allocator< int > > *arg6 = 0 ;
+  double *arg7 = 0 ;
+  std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > *arg8 = 0 ;
+  std::vector< std::vector< double,std::allocator< double > >,std::allocator< std::vector< double,std::allocator< double > > > > *arg9 = 0 ;
   PyArrayObject *array1 = NULL ;
   int is_new_object1 = 0 ;
   int val4 ;
   int ecode4 = 0 ;
-  std::vector< int,std::allocator< int > > temp5 ;
-  int res5 = SWIG_TMPOBJ ;
-  double temp6 ;
+  bool val5 ;
+  int ecode5 = 0 ;
+  std::vector< int,std::allocator< int > > temp6 ;
   int res6 = SWIG_TMPOBJ ;
-  std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > temp7 ;
+  double temp7 ;
   int res7 = SWIG_TMPOBJ ;
-  std::vector< std::vector< double,std::allocator< double > >,std::allocator< std::vector< double,std::allocator< double > > > > temp8 ;
+  std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > temp8 ;
   int res8 = SWIG_TMPOBJ ;
+  std::vector< std::vector< double,std::allocator< double > >,std::allocator< std::vector< double,std::allocator< double > > > > temp9 ;
+  int res9 = SWIG_TMPOBJ ;
   
-  arg5 = &temp5;
   arg6 = &temp6;
   arg7 = &temp7;
   arg8 = &temp8;
-  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  arg9 = &temp9;
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
   {
     npy_intp size[2] = {
       -1, -1 
@@ -17504,31 +17522,36 @@ SWIGINTERN PyObject *_wrap_basic_sequence_clustering_2d__SWIG_0(PyObject *self, 
     SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "basic_sequence_clustering_2d" "', argument " "4"" of type '" "int""'");
   } 
   arg4 = static_cast< int >(val4);
-  basic_sequence_clustering_2d(arg1,arg2,arg3,arg4,*arg5,*arg6,*arg7,*arg8);
+  ecode5 = SWIG_AsVal_bool(swig_obj[2], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "basic_sequence_clustering_2d" "', argument " "5"" of type '" "bool""'");
+  } 
+  arg5 = static_cast< bool >(val5);
+  basic_sequence_clustering_2d(arg1,arg2,arg3,arg4,arg5,*arg6,*arg7,*arg8,*arg9);
   resultobj = SWIG_Py_Void();
-  if (SWIG_IsTmpObj(res5)) {
-    resultobj = SWIG_Python_AppendOutput(resultobj, swig::from((*arg5)));
-  } else {
-    int new_flags = SWIG_IsNewObj(res5) ? (SWIG_POINTER_OWN |  0 ) :  0 ;
-    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg5), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, new_flags));
-  }
   if (SWIG_IsTmpObj(res6)) {
-    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_From_double((*arg6)));
+    resultobj = SWIG_Python_AppendOutput(resultobj, swig::from((*arg6)));
   } else {
     int new_flags = SWIG_IsNewObj(res6) ? (SWIG_POINTER_OWN |  0 ) :  0 ;
-    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg6), SWIGTYPE_p_double, new_flags));
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg6), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, new_flags));
   }
   if (SWIG_IsTmpObj(res7)) {
-    resultobj = SWIG_Python_AppendOutput(resultobj, swig::from((*arg7)));
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_From_double((*arg7)));
   } else {
     int new_flags = SWIG_IsNewObj(res7) ? (SWIG_POINTER_OWN |  0 ) :  0 ;
-    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg7), SWIGTYPE_p_std__vectorT_std__vectorT_int_std__allocatorT_int_t_t_std__allocatorT_std__vectorT_int_std__allocatorT_int_t_t_t_t, new_flags));
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg7), SWIGTYPE_p_double, new_flags));
   }
   if (SWIG_IsTmpObj(res8)) {
     resultobj = SWIG_Python_AppendOutput(resultobj, swig::from((*arg8)));
   } else {
     int new_flags = SWIG_IsNewObj(res8) ? (SWIG_POINTER_OWN |  0 ) :  0 ;
-    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg8), SWIGTYPE_p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t, new_flags));
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg8), SWIGTYPE_p_std__vectorT_std__vectorT_int_std__allocatorT_int_t_t_std__allocatorT_std__vectorT_int_std__allocatorT_int_t_t_t_t, new_flags));
+  }
+  if (SWIG_IsTmpObj(res9)) {
+    resultobj = SWIG_Python_AppendOutput(resultobj, swig::from((*arg9)));
+  } else {
+    int new_flags = SWIG_IsNewObj(res9) ? (SWIG_POINTER_OWN |  0 ) :  0 ;
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg9), SWIGTYPE_p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t, new_flags));
   }
   {
     if (is_new_object1 && array1)
@@ -17654,7 +17677,7 @@ SWIGINTERN PyObject *_wrap_basic_sequence_clustering_2d(PyObject *self, PyObject
   
   if (!(argc = SWIG_Python_UnpackTuple(args, "basic_sequence_clustering_2d", 0, 3, argv))) SWIG_fail;
   --argc;
-  if (argc == 2) {
+  if (argc == 3) {
     int _v = 0;
     {
       _v = is_array(argv[0]) || PySequence_Check(argv[0]);
@@ -17665,7 +17688,13 @@ SWIGINTERN PyObject *_wrap_basic_sequence_clustering_2d(PyObject *self, PyObject
         _v = SWIG_CheckState(res);
       }
       if (_v) {
-        return _wrap_basic_sequence_clustering_2d__SWIG_0(self, argc, argv);
+        {
+          int res = SWIG_AsVal_bool(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_basic_sequence_clustering_2d__SWIG_0(self, argc, argv);
+        }
       }
     }
   }
@@ -17694,7 +17723,7 @@ SWIGINTERN PyObject *_wrap_basic_sequence_clustering_2d(PyObject *self, PyObject
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'basic_sequence_clustering_2d'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    basic_sequence_clustering_2d(int,int,double *,int,std::vector< int,std::allocator< int > > &,double &,std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > &,std::vector< std::vector< double,std::allocator< double > >,std::allocator< std::vector< double,std::allocator< double > > > > &)\n"
+    "    basic_sequence_clustering_2d(int,int,double *,int,bool,std::vector< int,std::allocator< int > > &,double &,std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > &,std::vector< std::vector< double,std::allocator< double > >,std::allocator< std::vector< double,std::allocator< double > > > > &)\n"
     "    basic_sequence_clustering_2d(int,int,double *,int,int,std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > &,std::vector< double,std::allocator< double > > &,std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > &,std::vector< std::vector< double,std::allocator< double > >,std::allocator< std::vector< double,std::allocator< double > > > > &)\n");
   return 0;
 }
@@ -17708,8 +17737,11 @@ SWIGINTERN PyObject *_wrap_accelerated_sequence_clustering_approximated3_2d(PyOb
   int arg4 ;
   int arg5 ;
   double arg6 ;
-  std::vector< int,std::allocator< int > > *arg7 = 0 ;
-  double *arg8 = 0 ;
+  bool arg7 ;
+  std::vector< int,std::allocator< int > > *arg8 = 0 ;
+  double *arg9 = 0 ;
+  std::vector< double,std::allocator< double > > *arg10 = 0 ;
+  long *arg11 = 0 ;
   PyArrayObject *array1 = NULL ;
   int is_new_object1 = 0 ;
   int val4 ;
@@ -17718,15 +17750,23 @@ SWIGINTERN PyObject *_wrap_accelerated_sequence_clustering_approximated3_2d(PyOb
   int ecode5 = 0 ;
   double val6 ;
   int ecode6 = 0 ;
-  std::vector< int,std::allocator< int > > temp7 ;
-  int res7 = SWIG_TMPOBJ ;
-  double temp8 ;
+  bool val7 ;
+  int ecode7 = 0 ;
+  std::vector< int,std::allocator< int > > temp8 ;
   int res8 = SWIG_TMPOBJ ;
-  PyObject *swig_obj[4] ;
+  double temp9 ;
+  int res9 = SWIG_TMPOBJ ;
+  std::vector< double,std::allocator< double > > temp10 ;
+  int res10 = SWIG_TMPOBJ ;
+  long temp11 ;
+  int res11 = SWIG_TMPOBJ ;
+  PyObject *swig_obj[5] ;
   
-  arg7 = &temp7;
   arg8 = &temp8;
-  if (!SWIG_Python_UnpackTuple(args, "accelerated_sequence_clustering_approximated3_2d", 4, 4, swig_obj)) SWIG_fail;
+  arg9 = &temp9;
+  arg10 = &temp10;
+  arg11 = &temp11;
+  if (!SWIG_Python_UnpackTuple(args, "accelerated_sequence_clustering_approximated3_2d", 5, 5, swig_obj)) SWIG_fail;
   {
     npy_intp size[2] = {
       -1, -1 
@@ -17755,19 +17795,36 @@ SWIGINTERN PyObject *_wrap_accelerated_sequence_clustering_approximated3_2d(PyOb
     SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "accelerated_sequence_clustering_approximated3_2d" "', argument " "6"" of type '" "double""'");
   } 
   arg6 = static_cast< double >(val6);
-  accelerated_sequence_clustering_approximated3_2d(arg1,arg2,(double const *)arg3,arg4,arg5,arg6,*arg7,*arg8);
+  ecode7 = SWIG_AsVal_bool(swig_obj[4], &val7);
+  if (!SWIG_IsOK(ecode7)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "accelerated_sequence_clustering_approximated3_2d" "', argument " "7"" of type '" "bool""'");
+  } 
+  arg7 = static_cast< bool >(val7);
+  accelerated_sequence_clustering_approximated3_2d(arg1,arg2,(double const *)arg3,arg4,arg5,arg6,arg7,*arg8,*arg9,*arg10,*arg11);
   resultobj = SWIG_Py_Void();
-  if (SWIG_IsTmpObj(res7)) {
-    resultobj = SWIG_Python_AppendOutput(resultobj, swig::from((*arg7)));
-  } else {
-    int new_flags = SWIG_IsNewObj(res7) ? (SWIG_POINTER_OWN |  0 ) :  0 ;
-    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg7), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, new_flags));
-  }
   if (SWIG_IsTmpObj(res8)) {
-    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_From_double((*arg8)));
+    resultobj = SWIG_Python_AppendOutput(resultobj, swig::from((*arg8)));
   } else {
     int new_flags = SWIG_IsNewObj(res8) ? (SWIG_POINTER_OWN |  0 ) :  0 ;
-    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg8), SWIGTYPE_p_double, new_flags));
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg8), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, new_flags));
+  }
+  if (SWIG_IsTmpObj(res9)) {
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_From_double((*arg9)));
+  } else {
+    int new_flags = SWIG_IsNewObj(res9) ? (SWIG_POINTER_OWN |  0 ) :  0 ;
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg9), SWIGTYPE_p_double, new_flags));
+  }
+  if (SWIG_IsTmpObj(res10)) {
+    resultobj = SWIG_Python_AppendOutput(resultobj, swig::from((*arg10)));
+  } else {
+    int new_flags = SWIG_IsNewObj(res10) ? (SWIG_POINTER_OWN |  0 ) :  0 ;
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg10), SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t, new_flags));
+  }
+  if (SWIG_IsTmpObj(res11)) {
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_From_long((*arg11)));
+  } else {
+    int new_flags = SWIG_IsNewObj(res11) ? (SWIG_POINTER_OWN |  0 ) :  0 ;
+    resultobj = SWIG_Python_AppendOutput(resultobj, SWIG_NewPointerObj((void*)(arg11), SWIGTYPE_p_long, new_flags));
   }
   {
     if (is_new_object1 && array1)
@@ -17998,6 +18055,7 @@ static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocato
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "difference_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_double = {"_p_double", "double *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_long = {"_p_long", "long *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_p_PyObject = {"_p_p_PyObject", "PyObject **", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_double_t = {"_p_std__allocatorT_double_t", "std::vector< double >::allocator_type *|std::allocator< double > *", 0, 0, (void*)0, 0};
@@ -18019,6 +18077,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_char,
   &_swigt__p_difference_type,
   &_swigt__p_double,
+  &_swigt__p_long,
   &_swigt__p_p_PyObject,
   &_swigt__p_size_type,
   &_swigt__p_std__allocatorT_double_t,
@@ -18040,6 +18099,7 @@ static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_double[] = {  {&_swigt__p_double, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_long[] = {  {&_swigt__p_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_PyObject[] = {  {&_swigt__p_p_PyObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_double_t[] = {  {&_swigt__p_std__allocatorT_double_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -18061,6 +18121,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_char,
   _swigc__p_difference_type,
   _swigc__p_double,
+  _swigc__p_long,
   _swigc__p_p_PyObject,
   _swigc__p_size_type,
   _swigc__p_std__allocatorT_double_t,

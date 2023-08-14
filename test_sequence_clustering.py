@@ -101,7 +101,7 @@ k_max = 5
 
 start = time.time()
 for k in range(k_min, k_max+1):
-    sizes, SSE, _, _ = ascm.basic_sequence_clustering_2d(a_2d, k)
+    sizes, SSE, _, _ = ascm.basic_sequence_clustering_2d(a_2d, k, True)
     print(str(k), " ", str(sizes), " ", str(SSE))
 end = time.time()
 print(end-start, ' seconds.')
@@ -121,7 +121,7 @@ print(end-start, ' seconds.')
 
 start = time.time()
 for k in range(k_min, k_max+1):
-    sizes, SSE = ascm.accelerated_sequence_clustering_approximated3_2d(a_2d, 5, 3, 0)
+    sizes, SSE, all_SSE, total_saved_operations = ascm.accelerated_sequence_clustering_approximated3_2d(a_2d, 5, 3, 0, True)
     print(str(k), " ", str(sizes), " ", str(SSE))
 end = time.time()
 print(end-start, ' seconds.')

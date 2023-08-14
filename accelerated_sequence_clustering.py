@@ -662,6 +662,6 @@ def basic_sequence_clustering(*args):
 def basic_sequence_clustering_2d(*args):
     return _accelerated_sequence_clustering.basic_sequence_clustering_2d(*args)
 
-def accelerated_sequence_clustering_approximated3_2d(nrows, k, MAX_STALL, theta):
-    return _accelerated_sequence_clustering.accelerated_sequence_clustering_approximated3_2d(nrows, k, MAX_STALL, theta)
+def accelerated_sequence_clustering_approximated3_2d(nrows, k, MAX_STALL, theta, verbose):
+    return _accelerated_sequence_clustering.accelerated_sequence_clustering_approximated3_2d(nrows, k, MAX_STALL, theta, verbose)
 

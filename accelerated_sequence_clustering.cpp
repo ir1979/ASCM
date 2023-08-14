@@ -923,8 +923,11 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
         int k,
         int MAX_STALL,
         double theta,
+        bool verbose,
         std::vector<int> & out_sizes,
-        double & out_SSE
+        double & out_SSE,
+        std::vector<double> & out_All_SSEs,
+        long int & total_saved_operations 
         )
 {
     //"""This function is an improved version of the paper "On the accelerated clustering of sequential data", SIAM 2002"""
@@ -933,7 +936,8 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
     int d = ncols;
     int kn = k*n;
 
-    long int total_saved_operations = 0;
+    total_saved_operations = 0;
+    std::vector<double> all_SSEs(k); 
 
     double *data = zero_mean_2d(seq_data, nrows, ncols);
 
@@ -947,7 +951,7 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
     
     double *m = new double[d], *m_old = new double[d], *sum = new double[d], SSE;
 
-    // for i = 1
+    // for i = 0
     left[0][0] = SSE = 0;   // 1*(n+1)+1
     cp_dbl(m, &data[0], d);
     cp_dbl(&cntr[0][0], m, d);
@@ -970,6 +974,9 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
         cp_dbl(m_old, m, d);
     }
 
+    // for k=1
+    all_SSEs[0] = SSE;
+
     // std::cout << "The new Version." << std::endl;
 
     unsigned int top_sz = n-1;
@@ -980,6 +987,9 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
 
     for (unsigned int i=1;i<k; i++)
     {
+        if (verbose)
+            std::cout << (double)i/k*100 << "%" << std::endl;
+
         double *left_i = left[i] = new double[n];
         for (unsigned int tmp=0;tmp<n;tmp++)
             left_i[tmp] = DBL_MAX;
@@ -1197,13 +1207,13 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
                 break;
         } // end of for j
 
+        all_SSEs[i] = left_i[n-1];
         delete[] left[i-1];
         left[i-1] = 0;
         delete[] cntr[i-1];
         cntr[i-1] = 0;
         delete []cntr_i;
         cntr_i = 0;
-
     }  // end of for i
 
 
@@ -1227,6 +1237,7 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
 
     out_sizes = std::move(sizes);
     out_SSE = left[k-1][n-1];
+    out_All_SSEs = std::move(all_SSEs);
     
     delete[] left[k-1];
     left[k-1] = 0;
@@ -1239,9 +1250,12 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
     delete[] data;
     data = 0;
 
-    #ifdef VERBOSE
-    std::cout << "Total saved operations: " << total_saved_operations << std::endl;
-    #endif
+    // #ifdef VERBOSE
+    if (verbose) 
+    {
+        std::cout << "100%" << std::endl;
+    }
+    // #endif
 }
 
 
@@ -1953,6 +1967,7 @@ void basic_sequence_clustering_2d(int nrec,
         int ndims,
         double *data_2d, 
         int k,
+        bool verbose,
         std::vector<int> & out_sizes,
         double & out_SSE,
         std::vector<std::vector<int> > & out_internal_size,
@@ -2009,6 +2024,10 @@ void basic_sequence_clustering_2d(int nrec,
 
     for (int i=2;i<k+1; i++)
     {
+        if (verbose) {
+            std::cout << (double)i/(k+1) << "%" << std::endl;
+        }
+
         for (int j=n; j>i-1; j--)
         {
             //left[i][j] = 1e12;  // np.inf for cost of partitioning j data point to i clusters
@@ -2085,6 +2104,10 @@ void basic_sequence_clustering_2d(int nrec,
 
     delete[] m;
     delete[] m_old;
+
+    if (verbose) {
+        std::cout << "100%" << std::endl;
+    }
 }
 
 

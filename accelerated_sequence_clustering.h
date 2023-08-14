@@ -116,6 +116,7 @@ extern void basic_sequence_clustering_2d(int nrec,
         int ndims,
         double *data_2d, 
         int k,
+        bool verbose,
         std::vector<int> & out_sizes,
         double & out_SSE,
         std::vector<std::vector<int> > & out_internal_size,
@@ -139,8 +140,11 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
         int k,
         int MAX_STALL,
         double theta,
+        bool verbose,
         std::vector<int> & out_sizes,
-        double & out_SSE
+        double & out_SSE,
+        std::vector<double> & out_All_SSEs,
+        long int & total_saved_operations 
         );
         
 

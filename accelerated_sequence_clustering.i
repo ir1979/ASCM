@@ -52,6 +52,8 @@ namespace std
 %apply int {int k};
 %apply int {int kk};
 %apply int {int nn};
+%apply bool {bool verbose};
+
 // %apply unsigned int {int uk};
 // %apply unsigned int {int un};
 
@@ -65,9 +67,10 @@ namespace std
 
 %apply std::vector<int> & OUTPUT { std::vector<int> & out_sizes3 };
 %apply double & OUTPUT { double &out_SSE3 };
-
+%apply long int & OUTPUT { long int &total_saved_operations };
 
 %apply std::vector<int> & OUTPUT { std::vector<int> & out_sizes };
+%apply std::vector<double> & OUTPUT { std::vector<double> & out_All_SSEs };
 %apply double & OUTPUT { double &out_SSE };
 %apply std::vector<std::vector<int> > & OUTPUT { std::vector<std::vector<int> >& out_internal_size};
 %apply std::vector<std::vector<double> > & OUTPUT { std::vector<std::vector<double> >& out_internal_left};
