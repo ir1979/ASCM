@@ -1,0 +1,487 @@
+9999 2
+9999 2
+9999 2
+9999 2
+Total saved operations: 31685186
+Total saved operations: 114349202
+Total saved operations: 312948556
+Total saved operations: 672767810
+9999 2
+9999 2
+9999 2
+9999 2
+Total saved operations: 47858065
+Total saved operations: 129817688
+Total saved operations: 301324795
+Total saved operations: 619257447
+9999 2
+9999 2
+9999 2
+9999 2
+Total saved operations: 48824789
+Total saved operations: 145546908
+Total saved operations: 381127364
+Total saved operations: 792303976
+9999 2
+9999 2
+9999 2
+9999 2
+Total saved operations: 34722716
+Total saved operations: 106270757
+Total saved operations: 276470070
+Total saved operations: 596138233
+9999 2
+9999 2
+9999 2
+9999 2
+Total saved operations: 31890998
+Total saved operations: 119446094
+Total saved operations: 325910931
+Total saved operations: 706406125
+9999 2
+9999 2
+9999 2
+9999 2
+Total saved operations: 31478454
+Total saved operations: 115150228
+Total saved operations: 326396560
+Total saved operations: 676769543
+9999 2
+9999 2
+9999 2
+9999 2
+Total saved operations: 37790033
+Total saved operations: 129420737
+Total saved operations: 344785741
+Total saved operations: 714167176
+9999 2
+9999 2
+9999 2
+9999 2
+Total saved operations: 28009107
+Total saved operations: 106756847
+Total saved operations: 315541586
+Total saved operations: 703113085
+9999 2
+9999 2
+9999 2
+9999 2
+Total saved operations: 33856050
+Total saved operations: 116016778
+Total saved operations: 307347002
+Total saved operations: 674700989
+9999 2
+9999 2
+9999 2
+9999 2
+Total saved operations: 47641056
+Total saved operations: 142458467
+Total saved operations: 328886116
+Total saved operations: 669319369
+49999 2
+49999 2
+49999 2
+49999 2
+Total saved operations: 1070744901
+Total saved operations: -868747244
+Total saved operations: 592191372
+Total saved operations: -1133967067
+49999 2
+49999 2
+49999 2
+49999 2
+Total saved operations: 822931832
+Total saved operations: -1263807227
+Total saved operations: 93418526
+Total saved operations: -1885966582
+49999 2
+49999 2
+49999 2
+49999 2
+Total saved operations: 1024548773
+Total saved operations: -1053573409
+Total saved operations: 126549377
+Total saved operations: -2057930817
+49999 2
+49999 2
+49999 2
+49999 2
+Total saved operations: 1026921132
+Total saved operations: -1039388831
+Total saved operations: 433540399
+Total saved operations: -1624276796
+49999 2
+49999 2
+49999 2
+49999 2
+Total saved operations: 782897184
+Total saved operations: -1293807129
+Total saved operations: 195143132
+Total saved operations: -1549838493
+49999 2
+49999 2
+49999 2
+49999 2
+Total saved operations: 812263495
+Total saved operations: -1130481262
+Total saved operations: 375355500
+Total saved operations: -1453575756
+49999 2
+49999 2
+49999 2
+49999 2
+Total saved operations: 1201497400
+Total saved operations: -678876026
+Total saved operations: 900840571
+Total saved operations: -603454854
+4999 2
+4999 2
+4999 2
+4999 2
+Total saved operations: 8718477
+Total saved operations: 29339350
+Total saved operations: 82978329
+Total saved operations: 186952296
+4999 2
+4999 2
+4999 2
+4999 2
+Total saved operations: 11089167
+Total saved operations: 29453016
+Total saved operations: 68689154
+Total saved operations: 142044520
+4999 2
+4999 2
+4999 2
+4999 2
+Total saved operations: 11715032
+Total saved operations: 33185016
+Total saved operations: 86885254
+Total saved operations: 177192933
+4999 2
+4999 2
+4999 2
+4999 2
+Total saved operations: 8538104
+Total saved operations: 27048831
+Total saved operations: 70835082
+Total saved operations: 151376480
+4999 2
+4999 2
+4999 2
+4999 2
+Total saved operations: 7287087
+Total saved operations: 27106767
+Total saved operations: 73386347
+Total saved operations: 152972291
+4999 2
+4999 2
+4999 2
+4999 2
+Total saved operations: 7365470
+Total saved operations: 25947626
+Total saved operations: 70861967
+Total saved operations: 148778772
+4999 2
+4999 2
+4999 2
+4999 2
+Total saved operations: 7086995
+Total saved operations: 28059298
+Total saved operations: 73880494
+Total saved operations: 143657470
+4999 2
+4999 2
+4999 2
+4999 2
+Total saved operations: 6404769
+Total saved operations: 24772867
+Total saved operations: 72939438
+Total saved operations: 156553654
+4999 2
+4999 2
+4999 2
+4999 2
+Total saved operations: 7793043
+Total saved operations: 26043286
+Total saved operations: 69813858
+Total saved operations: 152430417
+4999 2
+4999 2
+4999 2
+4999 2
+Total saved operations: 11252574
+Total saved operations: 33138973
+Total saved operations: 78242939
+Total saved operations: 150683411
+Basic method outputs for Syn_n_10000_d_2_seed_0....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_10000_d_2_seed_0....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_10000_d_2_seed_1....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_10000_d_2_seed_1....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_10000_d_2_seed_2....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_10000_d_2_seed_2....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_10000_d_2_seed_3....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_10000_d_2_seed_3....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_10000_d_2_seed_4....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_10000_d_2_seed_4....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_10000_d_2_seed_5....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_10000_d_2_seed_5....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_10000_d_2_seed_6....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_10000_d_2_seed_6....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_10000_d_2_seed_7....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_10000_d_2_seed_7....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_10000_d_2_seed_8....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_10000_d_2_seed_8....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_10000_d_2_seed_9....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_10000_d_2_seed_9....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_50000_d_2_seed_3....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_50000_d_2_seed_3....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_50000_d_2_seed_4....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_50000_d_2_seed_4....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_50000_d_2_seed_5....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_50000_d_2_seed_5....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_50000_d_2_seed_6....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_50000_d_2_seed_6....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_50000_d_2_seed_7....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_50000_d_2_seed_7....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_50000_d_2_seed_8....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_50000_d_2_seed_8....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_50000_d_2_seed_9....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_50000_d_2_seed_9....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_5000_d_2_seed_0....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_5000_d_2_seed_0....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_5000_d_2_seed_1....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_5000_d_2_seed_1....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_5000_d_2_seed_2....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_5000_d_2_seed_2....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_5000_d_2_seed_3....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_5000_d_2_seed_3....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_5000_d_2_seed_4....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_5000_d_2_seed_4....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_5000_d_2_seed_5....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_5000_d_2_seed_5....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_5000_d_2_seed_6....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_5000_d_2_seed_6....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_5000_d_2_seed_7....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_5000_d_2_seed_7....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_5000_d_2_seed_8....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_5000_d_2_seed_8....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_5000_d_2_seed_9....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_5000_d_2_seed_9....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Finished.
