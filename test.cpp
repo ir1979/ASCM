@@ -68,12 +68,12 @@ int main()
     int seed = 0;   // seed used for random number generation
 
     int max_stall = 10; // maximum number of stalls after which to stop the search within the algorithm
-    double theta = 1.05;
+    double theta = 25;
 
-    int* ns = new int[4]{5000};
+    int* ns = new int[4]{5000, 10000, 50000, 100000};
     for (int i=0;i<4;i++){
         n = ns[i];
-        for (seed=0;seed<10;seed++){
+        for (seed=0;seed<1;seed++){
                     
             cout << "Processing a synthetic dataset (initizlied with seed=" 
                 << seed << ") containing " 
@@ -127,7 +127,7 @@ int main()
             std::cout << "Real SSE: " << real_SSE << 
                         ", Approximated SSE: " << approximated_SSE << 
                         ", SSE Difference: " << approximated_SSE - real_SSE << 
-                        ", Gap%: " <<  100*(approximated_SSE - real_SSE)/real_SSE << 
+                        ", Gap: " <<  100*(approximated_SSE - real_SSE)/real_SSE << "%" << 
                         std::endl;
 
             std::cout << "Basic Algorithm Time: " << duration1.count() << " msec, Accelerated Algorithm Time: " << duration2.count() << " msec, Speedup: " << double(duration1.count())/duration2.count() << std::endl << std::endl;
