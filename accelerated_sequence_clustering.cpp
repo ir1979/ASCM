@@ -1150,7 +1150,7 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
                         best_size = sz;
                         stall = 0;
                     }
-                    else if (sz>size[imnpjp1])    // we know j<n-1 since lambda!=0
+                    else if (sz>=size[imnpjp1])    // we know j<n-1 since lambda!=0
                     {
                         stall++;
 
