@@ -8,7 +8,7 @@ requires = [
 
 [project]
 name = "accelerated_sequence_clustering"
-version = "1.0.1"
+version = "1.0.2"
 description = "Fast sequence clustering module"
 authors = [{ name = "Reza Mortazavi", email = "ir1979@gmail.com" }]
 license = { file = "LICENSE" }

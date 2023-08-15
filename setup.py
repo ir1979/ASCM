@@ -17,7 +17,7 @@ accelerated_sequence_clustering_module = Extension('_accelerated_sequence_cluste
                            )
 
 setup (name = 'accelerated_sequence_clustering',
-       version = '1.0.1',
+       version = '1.0.2',
        author      = "Reza Mortazavi",
        description = """accelerated clustering of sequential data""",
        ext_modules = [accelerated_sequence_clustering_module],
