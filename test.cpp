@@ -70,7 +70,7 @@ int main()
     int max_stall = 10; // maximum number of stalls after which to stop the search within the algorithm
     double theta = 1.05;
 
-    int* ns = new int[4]{5000, 10000, 50000, 100000};
+    int* ns = new int[4]{5000};
     for (int i=0;i<4;i++){
         n = ns[i];
         for (seed=0;seed<10;seed++){
@@ -111,16 +111,17 @@ int main()
 
             // no approximation basic: theta=0, 
             //accelerated_sequence_clustering_approximated3_2d(n, d, b, k, 0, 0, sizes, real_SSE);   // theta = 0 means no approaximation
-            basic_sequence_clustering_2d(n, d, b, k, sizes, real_SSE, internal_size_matrix, internal_left_matrix);
+            basic_sequence_clustering_2d(n, d, b, k, false, sizes, real_SSE, internal_size_matrix, internal_left_matrix);
             auto stop1 = high_resolution_clock::now();
             auto duration1 = duration_cast<milliseconds>(stop1 - start1);
 
+            vector<double> all_SSEs;
+            long int total_saved_operations = 0;
             auto start2 = high_resolution_clock::now();
             // approximation is applied, theta=1.5 
-            accelerated_sequence_clustering_approximated3_2d(n, d, b, k, max_stall, theta, sizes, approximated_SSE);   // theta = 0 means no approaximation
+            accelerated_sequence_clustering_approximated3_2d(n, d, b, k, max_stall, theta, false, sizes, approximated_SSE, all_SSEs, total_saved_operations);   // theta = 0 means no approaximation
             auto stop2 = high_resolution_clock::now();
             auto duration2 = duration_cast<milliseconds>(stop2 - start2);
-
 
             std::cout << std::fixed;
             std::cout << "Real SSE: " << real_SSE << 
@@ -129,7 +130,7 @@ int main()
                         ", Gap%: " <<  100*(approximated_SSE - real_SSE)/real_SSE << 
                         std::endl;
 
-            std::cout << "Basic Algorithm Time: " << duration1.count() << " msec, Accelerated Algorithm Time: " << duration2.count() << " msec, Speedup: " << double(duration1.count())/duration2.count() << std::endl;
+            std::cout << "Basic Algorithm Time: " << duration1.count() << " msec, Accelerated Algorithm Time: " << duration2.count() << " msec, Speedup: " << double(duration1.count())/duration2.count() << std::endl << std::endl;
         }
     }
 

@@ -1021,9 +1021,8 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
             }
 
 
-            if (lambda==0 || theta==0 || sum_pow2(&data[jp1*d], d) >= lambda*theta) // data[jp1]*data[jp1] >= lambda*theta)
+            if (lambda==0 || theta==0 || sum_pow2(&data[jp1*d], d) >= lambda*theta) // data[jp1]*data[jp1] >= lambda*theta), i.e., no approximation
             {
-
                 int sz = 1;
                 cp_dbl(m, &data[j*d], d); // [j-sz+1];
                 double SSE = 0;
@@ -1108,10 +1107,10 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
                     size[imnpj] = sz;
                     stall = 0;
                 }
-                else 
-                {
-                    stall++;
-                }
+                // else 
+                // {
+                //     stall++;
+                // }
 
                 double best_left = left_i[j];
                 double *best_cntr = new double[d];
@@ -1151,7 +1150,7 @@ void accelerated_sequence_clustering_approximated3_2d(int nrows,
                         best_size = sz;
                         stall = 0;
                     }
-                    else 
+                    else if (sz>size[imnpjp1])    // we know j<n-1 since lambda!=0
                     {
                         stall++;
 
@@ -2025,7 +2024,7 @@ void basic_sequence_clustering_2d(int nrec,
     for (int i=2;i<k+1; i++)
     {
         if (verbose) {
-            std::cout << (double)i/(k+1) << "%" << std::endl;
+            std::cout << (double)i/(k+1)*100 << "%" << std::endl;
         }
 
         for (int j=n; j>i-1; j--)
