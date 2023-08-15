@@ -19,9 +19,9 @@ classifiers = [
 ]
 keywords = ["sequence", "data clustering", "grouping"]
 dependencies = [
-    "numpy >= 1.23.4",
+    "numpy >= 1.21.6",
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.7"
 
 [project.urls]
 Homepage = "https://github.com/ir1979/ASCM"

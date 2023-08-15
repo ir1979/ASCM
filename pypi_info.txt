@@ -13,7 +13,7 @@
 # so it is recommended to use a ready-made docker image as follows:
 
 # cd the folder where you want to build
-# docker run -i -t -v "`pwd`"":/io quay.io/pypa/manylinux_2_28_x86_64 /bin/bash
+# docker run -i -t -v "`pwd`":/io quay.io/pypa/manylinux_2_28_x86_64 /bin/bash
 # within the docker image, run the following command:
 # cd io
 # python3.6 -m pip wheel . -w wheelhouse/
