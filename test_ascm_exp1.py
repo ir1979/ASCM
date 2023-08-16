@@ -24,7 +24,7 @@ def __main__(argv):
     MAX=10
     k_min = 3
     k_max = 20
-    k_set=[3]#,5,10,20]
+    k_set=[3,5,10,20]
     columns=['dataset_name', 'method', 'k','SSE','Total_time']
     all_results=pd.DataFrame()
     
@@ -66,11 +66,13 @@ def __main__(argv):
                         'Total_time':total_time_a}
             results= results.append(asc_current, ignore_index=True)
             all_results= all_results.append(asc_current, ignore_index=True)
+
             speed_up=total_time_b/total_time_a
             Gap=(SSE_a-SSE_b)/SSE_b*100
             print(f'speed up={speed_up}')
             print(f'Gap={Gap}')
             print('end')
+
         output_path=os.getcwd()
         results[columns].to_csv(output_path+f'/{dataset_name}.csv')
         

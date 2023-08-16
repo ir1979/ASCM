@@ -1,0 +1,127 @@
+99999 2
+99999 2
+99999 2
+99999 2
+Total saved operations: -446913259
+Total saved operations: 396674522
+Total saved operations: 1403171390
+Total saved operations: -1914972731
+99999 2
+99999 2
+99999 2
+99999 2
+Total saved operations: 503647563
+Total saved operations: 1589076588
+Total saved operations: -665962271
+Total saved operations: 1684205567
+99999 2
+99999 2
+99999 2
+99999 2
+Total saved operations: 543804411
+Total saved operations: 1771885166
+Total saved operations: 217920575
+Total saved operations: -520430283
+99999 2
+99999 2
+99999 2
+99999 2
+Total saved operations: 355388498
+Total saved operations: 1632534824
+Total saved operations: 215244047
+Total saved operations: 79943616
+49999 2
+49999 2
+49999 2
+49999 2
+Total saved operations: 938853312
+Total saved operations: -1099252236
+Total saved operations: 26156969
+Total saved operations: 1863039535
+49999 2
+49999 2
+49999 2
+49999 2
+Total saved operations: 1196801218
+Total saved operations: -724261662
+Total saved operations: 717837284
+Total saved operations: -1345911713
+49999 2
+49999 2
+49999 2
+49999 2
+Total saved operations: 1191801701
+Total saved operations: -701610674
+Total saved operations: 988924959
+Total saved operations: -430241824
+Basic method outputs for Syn_n_100000_d_2_seed_0....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_100000_d_2_seed_0....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_100000_d_2_seed_1....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_100000_d_2_seed_1....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_100000_d_2_seed_2....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_100000_d_2_seed_2....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_100000_d_2_seed_3....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_100000_d_2_seed_3....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_50000_d_2_seed_0....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_50000_d_2_seed_0....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_50000_d_2_seed_1....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_50000_d_2_seed_1....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Basic method outputs for Syn_n_50000_d_2_seed_2....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+ASC method outputs for Syn_n_50000_d_2_seed_2....
+cluster=3
+cluster=5
+cluster=10
+cluster=20
+Finished.

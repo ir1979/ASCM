@@ -1,0 +1,421 @@
+Total saved operations: 443901158
+Total saved operations: 549839732
+Total saved operations: 513981267
+Total saved operations: 481477617
+Total saved operations: 2099318320
+Total saved operations: 1863039535
+Total saved operations: 1740526845
+Total saved operations: 1624537412
+Total saved operations: -624601713
+Total saved operations: -796601540
+Total saved operations: -937806076
+Total saved operations: -1081160122
+Total saved operations: 170889440
+Total saved operations: 45594742
+Total saved operations: -110302966
+Total saved operations: -268941234
+Total saved operations: 643480371
+Total saved operations: 531473851
+Total saved operations: 398469246
+Total saved operations: 285247525
+Total saved operations: 752760388
+Total saved operations: 650654133
+Total saved operations: 557498957
+Total saved operations: 472433143
+Total saved operations: 838233972
+Total saved operations: 783540216
+Total saved operations: 754804437
+Total saved operations: 713744207
+Total saved operations: 871310159
+Total saved operations: 829950287
+Total saved operations: 804845609
+Total saved operations: 780104670
+Total saved operations: -1051804769
+Total saved operations: -746702574
+Total saved operations: -681728533
+Total saved operations: -741682693
+Total saved operations: -1070185490
+Total saved operations: -1345911713
+Total saved operations: -1195532968
+Total saved operations: -1612344028
+Total saved operations: 47328551
+Total saved operations: -159511258
+Total saved operations: -212565324
+Total saved operations: -511758894
+Total saved operations: 518004680
+Total saved operations: 363898857
+Total saved operations: 290606969
+Total saved operations: 93141045
+Total saved operations: 808938186
+Total saved operations: 699515712
+Total saved operations: 615345371
+Total saved operations: 476887487
+Total saved operations: 884214701
+Total saved operations: 786466988
+Total saved operations: 710323857
+Total saved operations: 614527921
+Total saved operations: 913289260
+Total saved operations: 859744811
+Total saved operations: 833973664
+Total saved operations: 789259325
+Total saved operations: 924376254
+Total saved operations: 897978999
+Total saved operations: 847371514
+Total saved operations: 822099085
+Total saved operations: 14881425
+Total saved operations: -39936632
+Total saved operations: -24500897
+Total saved operations: -113392787
+Total saved operations: -324854627
+Total saved operations: -430241824
+Total saved operations: -633902024
+Total saved operations: -780878101
+Total saved operations: 392273715
+Total saved operations: 271086201
+Total saved operations: 69570882
+Total saved operations: -74354550
+Total saved operations: 717994597
+Total saved operations: 618583774
+Total saved operations: 467173093
+Total saved operations: 322655279
+Total saved operations: 889263086
+Total saved operations: 801863926
+Total saved operations: 706758175
+Total saved operations: 598437161
+Total saved operations: 921130410
+Total saved operations: 845872927
+Total saved operations: 780421063
+Total saved operations: 698837493
+Total saved operations: 949937115
+Total saved operations: 901288874
+Total saved operations: 871224313
+Total saved operations: 829924317
+Total saved operations: 945118404
+Total saved operations: 913281206
+Total saved operations: 869778525
+Total saved operations: 848216649
+Total saved operations: 1437533874
+Total saved operations: 1412897678
+Total saved operations: 1148957852
+Total saved operations: 1108942194
+Total saved operations: -959738944
+Total saved operations: -1133967067
+Total saved operations: -1420650413
+Total saved operations: -1598762309
+Total saved operations: 40415482
+Total saved operations: -154634244
+Total saved operations: -304253928
+Total saved operations: -470074246
+Total saved operations: 549681475
+Total saved operations: 350150243
+Total saved operations: 215624419
+Total saved operations: 60699304
+Total saved operations: 783893806
+Total saved operations: 645600111
+Total saved operations: 535374357
+Total saved operations: 412265851
+Total saved operations: 847250140
+Total saved operations: 740373992
+Total saved operations: 654324155
+Total saved operations: 571464758
+Total saved operations: 877894103
+Total saved operations: 828954407
+Total saved operations: 793656504
+Total saved operations: 762130144
+Total saved operations: 906223225
+Total saved operations: 865608015
+Total saved operations: 844360770
+Total saved operations: 814941457
+Total saved operations: 1352670573
+Total saved operations: 1299033143
+Total saved operations: 1275360813
+Total saved operations: 1241586127
+Total saved operations: -1626336758
+Total saved operations: -1885966582
+Total saved operations: -2035398673
+Total saved operations: 2129767888
+Total saved operations: -559548431
+Total saved operations: -810172548
+Total saved operations: -936367950
+Total saved operations: -1105313447
+Total saved operations: 43026385
+Total saved operations: -158848795
+Total saved operations: -295952878
+Total saved operations: -474143396
+Total saved operations: 440891104
+Total saved operations: 303388495
+Total saved operations: 167450347
+Total saved operations: 22505822
+Total saved operations: 603762561
+Total saved operations: 475868198
+Total saved operations: 375674487
+Total saved operations: 279876558
+Total saved operations: 728235821
+Total saved operations: 687042861
+Total saved operations: 645370066
+Total saved operations: 615486883
+Total saved operations: 757071111
+Total saved operations: 752960577
+Total saved operations: 725405465
+Total saved operations: 703875083
+Total saved operations: 1043718855
+Total saved operations: 1019686725
+Total saved operations: 1002232299
+Total saved operations: 969443331
+Total saved operations: -1965961840
+Total saved operations: -2057930817
+Total saved operations: 2137840889
+Total saved operations: 2024795777
+Total saved operations: -266058819
+Total saved operations: -366640234
+Total saved operations: -472070927
+Total saved operations: -619500041
+Total saved operations: 442698993
+Total saved operations: 355533236
+Total saved operations: 230749536
+Total saved operations: 68993028
+Total saved operations: 733341398
+Total saved operations: 661301456
+Total saved operations: 559821536
+Total saved operations: 425739781
+Total saved operations: 819303994
+Total saved operations: 752508562
+Total saved operations: 673821198
+Total saved operations: 578740358
+Total saved operations: 900921140
+Total saved operations: 836008672
+Total saved operations: 806460292
+Total saved operations: 768560138
+Total saved operations: 853435659
+Total saved operations: 858110636
+Total saved operations: 848787406
+Total saved operations: 816985355
+Total saved operations: -2034762293
+Total saved operations: -1949791157
+Total saved operations: -1877625456
+Total saved operations: -1932529251
+Total saved operations: -1196509534
+Total saved operations: -1624276796
+Total saved operations: -1621165403
+Total saved operations: -1805409936
+Total saved operations: -81792924
+Total saved operations: -293049312
+Total saved operations: -357579911
+Total saved operations: -537734350
+Total saved operations: 485667599
+Total saved operations: 305097555
+Total saved operations: 222704186
+Total saved operations: 49475821
+Total saved operations: 740795768
+Total saved operations: 614381245
+Total saved operations: 536903927
+Total saved operations: 390187142
+Total saved operations: 749369136
+Total saved operations: 712809173
+Total saved operations: 649086935
+Total saved operations: 549035638
+Total saved operations: 834944955
+Total saved operations: 813106914
+Total saved operations: 792224986
+Total saved operations: 747159270
+Total saved operations: 829167205
+Total saved operations: 845190322
+Total saved operations: 829244519
+Total saved operations: 805079868
+Total saved operations: 1889265992
+Total saved operations: 1863935265
+Total saved operations: 1848914778
+Total saved operations: 1648671500
+Total saved operations: -1326201231
+Total saved operations: -1549838493
+Total saved operations: -1707710800
+Total saved operations: -1833208518
+Total saved operations: -392375768
+Total saved operations: -563214126
+Total saved operations: -735197043
+Total saved operations: -864764904
+Total saved operations: 178760237
+Total saved operations: -28870936
+Total saved operations: -181893671
+Total saved operations: -314195112
+Total saved operations: 477629831
+Total saved operations: 301497474
+Total saved operations: 167474699
+Total saved operations: 63216832
+Total saved operations: 597356848
+Total saved operations: 460586962
+Total saved operations: 360845581
+Total saved operations: 293122140
+Total saved operations: 794736874
+Total saved operations: 720704009
+Total saved operations: 647874335
+Total saved operations: 610644003
+Total saved operations: 831493322
+Total saved operations: 763573228
+Total saved operations: 740826442
+Total saved operations: 716610919
+Total saved operations: 1731616781
+Total saved operations: 1666310963
+Total saved operations: 1657735031
+Total saved operations: 1722836007
+Total saved operations: -1267899377
+Total saved operations: -1453575756
+Total saved operations: -1613659924
+Total saved operations: -1719853327
+Total saved operations: -257269209
+Total saved operations: -522000868
+Total saved operations: -654640819
+Total saved operations: -775161346
+Total saved operations: 271897297
+Total saved operations: 64006232
+Total saved operations: -82397252
+Total saved operations: -232713034
+Total saved operations: 542172559
+Total saved operations: 388374315
+Total saved operations: 286987887
+Total saved operations: 159485482
+Total saved operations: 679488088
+Total saved operations: 546506479
+Total saved operations: 471987009
+Total saved operations: 390385716
+Total saved operations: 781424654
+Total saved operations: 727421083
+Total saved operations: 694345860
+Total saved operations: 663928688
+Total saved operations: 784978929
+Total saved operations: 765803291
+Total saved operations: 766704503
+Total saved operations: 753693961
+Total saved operations: 713674731
+Total saved operations: 502332407
+Total saved operations: 257912327
+Total saved operations: -94202140
+Total saved operations: -232971694
+Total saved operations: -603454854
+Total saved operations: -880275303
+Total saved operations: -1102334853
+Total saved operations: 354331399
+Total saved operations: 111170576
+Total saved operations: -84598943
+Total saved operations: -274327818
+Total saved operations: 668400454
+Total saved operations: 513173700
+Total saved operations: 356015449
+Total saved operations: 194235874
+Total saved operations: 858167492
+Total saved operations: 743410529
+Total saved operations: 624051515
+Total saved operations: 494316837
+Total saved operations: 910329381
+Total saved operations: 822812833
+Total saved operations: 721769943
+Total saved operations: 640214566
+Total saved operations: 932013081
+Total saved operations: 881123284
+Total saved operations: 837220683
+Total saved operations: 793024598
+Total saved operations: 937171116
+Total saved operations: 903583516
+Total saved operations: 881328332
+Total saved operations: 849870607
+Basic method outputs for Syn_n_50000_d_2_seed_0....
+ASC method outputs for Syn_n_50000_d_2_seed_0....
+cluster=1.01
+cluster=1.05
+cluster=1.1
+cluster=1.2
+cluster=1.5
+cluster=2
+cluster=5
+cluster=10
+Basic method outputs for Syn_n_50000_d_2_seed_1....
+ASC method outputs for Syn_n_50000_d_2_seed_1....
+cluster=1.01
+cluster=1.05
+cluster=1.1
+cluster=1.2
+cluster=1.5
+cluster=2
+cluster=5
+cluster=10
+Basic method outputs for Syn_n_50000_d_2_seed_2....
+ASC method outputs for Syn_n_50000_d_2_seed_2....
+cluster=1.01
+cluster=1.05
+cluster=1.1
+cluster=1.2
+cluster=1.5
+cluster=2
+cluster=5
+cluster=10
+Basic method outputs for Syn_n_50000_d_2_seed_3....
+ASC method outputs for Syn_n_50000_d_2_seed_3....
+cluster=1.01
+cluster=1.05
+cluster=1.1
+cluster=1.2
+cluster=1.5
+cluster=2
+cluster=5
+cluster=10
+Basic method outputs for Syn_n_50000_d_2_seed_4....
+ASC method outputs for Syn_n_50000_d_2_seed_4....
+cluster=1.01
+cluster=1.05
+cluster=1.1
+cluster=1.2
+cluster=1.5
+cluster=2
+cluster=5
+cluster=10
+Basic method outputs for Syn_n_50000_d_2_seed_5....
+ASC method outputs for Syn_n_50000_d_2_seed_5....
+cluster=1.01
+cluster=1.05
+cluster=1.1
+cluster=1.2
+cluster=1.5
+cluster=2
+cluster=5
+cluster=10
+Basic method outputs for Syn_n_50000_d_2_seed_6....
+ASC method outputs for Syn_n_50000_d_2_seed_6....
+cluster=1.01
+cluster=1.05
+cluster=1.1
+cluster=1.2
+cluster=1.5
+cluster=2
+cluster=5
+cluster=10
+Basic method outputs for Syn_n_50000_d_2_seed_7....
+ASC method outputs for Syn_n_50000_d_2_seed_7....
+cluster=1.01
+cluster=1.05
+cluster=1.1
+cluster=1.2
+cluster=1.5
+cluster=2
+cluster=5
+cluster=10
+Basic method outputs for Syn_n_50000_d_2_seed_8....
+ASC method outputs for Syn_n_50000_d_2_seed_8....
+cluster=1.01
+cluster=1.05
+cluster=1.1
+cluster=1.2
+cluster=1.5
+cluster=2
+cluster=5
+cluster=10
+Basic method outputs for Syn_n_50000_d_2_seed_9....
+ASC method outputs for Syn_n_50000_d_2_seed_9....
+cluster=1.01
+cluster=1.05
+cluster=1.1
+cluster=1.2
+cluster=1.5
+cluster=2
+cluster=5
+cluster=10
+Finished.
