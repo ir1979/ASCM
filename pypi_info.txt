@@ -22,7 +22,8 @@
 # ...
 
 # then run auditwheel to repair the wheels:
-# for whl in wheelhouse/*.whl; do     auditwheel repair "$whl" -w /io/wheelhouse2/; done
+# for whl in wheelhouse/*.whl; do     auditwheel repair "$whl" -w /io/wheelhouse2/ --plat=manylinux_2_34_x86_64; done
+
 
 # now your files are ready to be uploaded to pypi
 # in the host system, run the following command to upload the wheels:
