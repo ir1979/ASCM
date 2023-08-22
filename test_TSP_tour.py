@@ -6,16 +6,16 @@ import accelerated_sequence_clustering as ascm
 # Provide the path to your TSPLIB data file and the tour as a list of city indices
 
 # Greece
-tsplib_file = "datasets_tsp/gr9882.tsp"
-tour_file = "datasets_tsp/gr9882.tour"
+tsplib_file = "outs/datasets_tsp/gr9882.tsp"
+tour_file = "outs/datasets_tsp/gr9882.tour"
 
 # # Japan
-# tsplib_file = "datasets_tsp/ja9847.tsp"
-# tour_file = "datasets_tsp/ja9847.tour"
+# tsplib_file = "outs/datasets_tsp/ja9847.tsp"
+# tour_file = "outs/datasets_tsp/ja9847.tour"
 
 # # China
-# tsplib_file = "datasets_tsp/ch71009.tsp"
-# tour_file = "datasets_tsp/ch71009.tour"
+# tsplib_file = "outs/datasets_tsp/ch71009.tsp"
+# tour_file = "outs/datasets_tsp/ch71009.tour"
 
 k_MAX = 10
 MAX_STALL = 5
